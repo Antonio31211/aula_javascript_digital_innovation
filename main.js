@@ -1,13 +1,32 @@
 function clicou(){
-    document.getElementById('agradecimento').innerHTML = "<b>Obrigado por clicar</b>";
+    document.getElementById('agradecimento').innerHTML = "<b>Meu Git</b>";
    // console.log(document.getElementById('agradecimento'));
     
-    //alert("Obrigado por clicar")
+    //alert("Obrigado por clicar");
 }
 
 function redirecionar(){
     window.open("https://github.com/Antonio31211");
  // window.location.href = "https://github.com/Antonio31211"; //redireciona para o outro site sem abrir uma nova guia
+}
+
+function trocar(elemento){
+  //  document.getElementById("mousemovie").innerHTML = "Obrigado por passar o mouse";
+  elemento.innerHTML = "Obrigado por passar o mouse";
+  // alert("Trocar texto");
+}
+
+function voltar(elemento){
+    //document.getElementById("mousemovie").innerHTML = "Passe o mouse aqui";
+    elemento.innerHTML = "Passe o mouse aqui";
+}
+
+function load(){
+    alert("Página carregada");
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value);
 }
 
 
@@ -56,7 +75,7 @@ while (count <= 5){
 */
 
 /*
-var idade = prompt("Qual sua idade?");//prompt exibe uma pergunta
+var idade = prompt("Qual sua idade?");//prompt exibe uma pergunta;
 
 if(idade >= 18){
     alert("Maior de idade");
@@ -66,7 +85,7 @@ if(idade >= 18){
 */
 
 /*
-var frutas = [{nome: "maçã", cor: "vermelha"},{nome: "uva", cor: "roxa"} ]
+var frutas = [{nome: "maçã", cor: "vermelha"},{nome: "uva", cor: "roxa"} ];
 console.log(frutas);
 alert(frutas[1]);
 /*
