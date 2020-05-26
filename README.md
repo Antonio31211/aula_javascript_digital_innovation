@@ -1,2 +1,2 @@
-# aula_javascript_devmedia
+# aula_javascript_digital_innovation
  

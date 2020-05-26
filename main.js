@@ -1,3 +1,37 @@
+function clicou(){
+    document.getElementById('agradecimento').innerHTML = "<b>Obrigado por clicar</b>";
+   // console.log(document.getElementById('agradecimento'));
+    
+    //alert("Obrigado por clicar")
+}
+
+function redirecionar(){
+    window.open("https://github.com/Antonio31211");
+ // window.location.href = "https://github.com/Antonio31211"; //redireciona para o outro site sem abrir uma nova guia
+}
+
+
+/*
+function soma(n1, n2){
+    return soma = n1 + n2;
+}
+
+var validar = 0;
+function validaIdade(idade){
+
+    if(idade >= 18){
+        validar = true;
+    }else{
+        validar = false;
+    }
+    return validar;
+}
+
+var idade = prompt("Qual sua idade?");
+console.log(validaIdade(idade));
+/*
+
+
 /*
 var d = new Date();
 alert(d.getDay());
